@@ -1,0 +1,11 @@
+Options All -Indexes
+ErrorDocument 404 http://localhost/ppdbv4/error/404.php
+ErrorDocument 403 http://localhost/ppdbv4/error/403.php
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^home index.php [NC,L]
+RewriteRule ^register register.php [NC,L]
+RewriteRule ^login login.php [NC,L]
+RewriteRule ^keranjang keranjang.php [NC,L]
+RewriteRule ^profile profile.php [NC,L]
+</IfModule>

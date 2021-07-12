@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  padding-top: 56px;
+  font-family: "Poppins", sans-serif;
+}
+.navbar-brand {
+  padding-left: 5px;
+  color: #82AE46 !important;
+  font-weight: 700;
+}
+
+.add-shadow{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.footer-bg{
+  background-color:#82AE46;
+}
+
+.breadcrumb-item a {
+  color: #82ae46 !important;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 10px;
+  transition: all 0.2s ease-in-out;
+}
+.card a {
+  color: #82ae46;
+}
+.card-img-top {
+  height: 160px;
+}
+
+.btn-primarytani{
+	background-color: #82AE46;
+	color: #fff;
+}
+.btn-secondarytani{
+	background-color: #82AE46;
+	color: #fff !important;
+}
+.btn-secondarytani:hover{
+	background-color: #6f943c;
+	color: #fff !important;
+}
+
+.btn-primarytani:hover{
+	background-color: #6f943c;
+	color: #fff;
+}
+
+.post-info {
+  background: transparent;
+  margin: 0 0 10px;
+  color: #8d8d8d;
+  font-size: 11px;
+  font-weight: bold;
+}
+.riwayat-info {
+  margin: 0 0 10px;
+  color: #8d8d8d;
+  font-size: 11px;
+  font-weight: bold;
+}
+.produk-info,
+.time-info,
+.comment-info,
+.label-info,
+.review-info {
+  display: inline;
+  margin-right: 12px;
+}
+
+.border-artikel {
+  border: 1px solid #d5d1d1;
+  margin: 15px 0 15px;
+  padding: 15px;
+}
+.login-page {
+  margin: 15px 0 25px;
+  padding: 15px;
+}
+.card-text .btn.btn-sm.btn-primary {
+  color: #fff;
+}
+.footerfix {
+  bottom: 0;
+  position: relative;
+}
+
+/** Share */
+.shareroot {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.sh-title {
+  display: block;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  margin: 8px 15px 8px 0;
+  padding: 0;
+}
+.sh-title strong {
+  font-size: 16px;
+  display: block;
+}
+.shareroot a {
+  float: left;
+  font-size: 12px;
+  line-height: 30px;
+  color: #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin: 8px 3px;
+  padding: 0 10px;
+  height: 30px;
+  min-width: 30px;
+  text-align: center;
+}
+.shareroot a:hover {
+  background-color: #222;
+  color: #fff;
+}
+.shareroot a i.fa {
+  margin-right: 7px;
+  font-size: 12px;
+}
+.shareroot .facebook {
+  background-color: #003471;
+}
+.shareroot .whatsapp {
+  background-color: #0b9d48;
+}
+.shareroot .twitter {
+  background-color: #00bff3;
+}
+.shareroot .pinterest {
+  background-color: #c6393d;
+}
+.shareroot .linkedin {
+  background-color: #0077b5;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+  .bg-image-height {
+    height: 300px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+.page-item a{
+	margin-top: -120px;
+	color: #82ae46;
+}
+.page-item a:hover{
+	color: #82ae46;
+}
+
+.carousel {
+	max-height: 20%;
+	overflow: hidden;
+  }
+
+
